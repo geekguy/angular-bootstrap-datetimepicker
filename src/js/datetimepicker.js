@@ -327,7 +327,7 @@
                 'dates': []
               };
 
-              for (var i = 0; i < 24; i += 1) {
+              for (var i = 10; i < 20; i += 1) {
                 var hourMoment = moment.utc(selectedDate).add(i, 'hours');
                 var dateValue = {
                   'utcDateValue': hourMoment.valueOf(),
